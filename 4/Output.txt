@@ -1,0 +1,10 @@
+exexfile("huffman.py")
+make_assigned_huffman_tree()
+>>> msg = ['B', 'A', 'C']
+>>> code = [1, 0, 0, 0, 1, 0, 1, 0]
+>>> huffman_decode(huffman_encode(msg, ht), ht)
+['B', 'A', 'C']
+>>> huffman_decode(huffman_encode(msg, ht), ht) == msg
+True
+>>> huffman_encode(huffman_decode(code, ht), ht) == code
+True

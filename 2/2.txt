@@ -1,0 +1,28 @@
+Python 2.7.5 (default, Mar  9 2014, 22:15:05) 
+[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.0.68)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> execfile('2.py')
+
+>>> newtonRaphson(1,fx2,dfx2)
+
+1.16666666667
+
+1.12644367757
+
+1.12249706749
+
+1.12246205104
+
+1.122462048309373
+
+>>> newtonRaphson(2,fx,dfx)
+
+2.1
+
+2.0945681211
+
+2.0945514817
+
+2.0945514815423265
+
+>>> 
